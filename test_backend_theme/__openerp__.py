@@ -4,7 +4,7 @@
     'category': 'Website',
     'summary': 'Website',
     'website': '',
-    'version': '1.0',
+    'version': '8.0',
     'description': """
 OpenERP Website
 ===================
