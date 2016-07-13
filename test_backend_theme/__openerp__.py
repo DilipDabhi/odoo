@@ -18,5 +18,6 @@ The purpose of this module is to how to start deploying your own custome theme i
     ],
     'application': True,
     'installable': True,
+    'images': ['static/description/main_screen.png'],
     
 }
