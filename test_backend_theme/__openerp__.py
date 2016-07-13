@@ -4,6 +4,7 @@
     'category': 'Website',
     'summary': 'Website',
     'website': '',
+    'author': 'Dilip Dabhi',
     'version': '1.0',
     'description': """
 OpenERP Website
