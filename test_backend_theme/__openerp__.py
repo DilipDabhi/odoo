@@ -4,15 +4,17 @@
     'category': 'Website',
     'summary': 'Website',
     'website': '',
-    'version': '8.0',
+    'version': '1.0',
     'description': """
 OpenERP Website
 ===================
         """,
-    'depends': [],
+    'depends': ['website'],
     'installable': True,
     'data': [
         'views/website_templates.xml',
     ],
     'application': True,
+    'installable': True,
+    
 }
