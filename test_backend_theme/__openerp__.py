@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Test Backend Themes',
+    'name': 'Backend Theme',
     'category': 'Website',
     'summary': 'Website',
     'website': '',
@@ -8,7 +8,8 @@
     'version': '1.0',
     'description': """
 OpenERP Website
-===================
+================
+The purpose of this module is to how to start deploying your own custome theme in Odoo.!
         """,
     'depends': ['website'],
     'installable': True,

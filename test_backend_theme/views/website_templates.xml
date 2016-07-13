@@ -13,7 +13,7 @@
 		          name="Setting favicon" priority="20">
 		    <xpath expr="//link[@rel='shortcut icon']" position="replace">
 		        <link rel="shortcut icon"
-		              href="/test_backend_theme/static/src/img/favicon.ico"
+		              href="/test_backend_theme/static/src/img/icon.ico"
 		              type="image/x-icon"/>
 		    </xpath>
 		</template>
