@@ -1,0 +1,56 @@
+.openerp .oe_kanban_view .oe_kanban_image
+{
+	border-radius: 50px;
+}
+
+
+.openerp .oe_form input[type="text"], .openerp .oe_form input[type="password"], .openerp .oe_form input[type="file"], .openerp .oe_form select, .openerp .oe_form textarea 
+{
+	border-bottom: 1px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-color: rgb(167, 164, 164);
+}
+.openerp .oe_form .oe_form_required input:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required select:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required textarea:not([disabled]):not([readonly])
+{
+	background-color: white !important;
+}
+.openerp .oe_form input[type="text"], .openerp .oe_form input[type="password"], .openerp .oe_form input[type="file"], .openerp .oe_form select, .openerp .oe_form textarea{
+	outline:none;
+}
+.navbar-inverse {
+    background-color: #dde02d;
+    border-color: #080808;
+}
+.openerp button.oe_highlight:hover {
+    background-color: #198C75;
+    border-radius: 0;
+    height: 26px;
+    border:0;]
+    height: 29px;
+    width: 75px;
+    /* background: black; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#198C75), to(#198C75));
+    background-image: -webkit-linear-gradient(top, #198C75, #198C75);
+    background-image: -moz-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -ms-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -o-linear-gradient(top, #e25858, #ab1b1b);
+    /* background-image: linear-gradient(to bottom, #198C75, #198C75); */
+}
+.openerp button.oe_highlight{
+    background-color: #21b799;
+    border-radius: 0;
+    height: 26px;
+    border:0;]
+    height: 29px;
+    width: 75px;
+    /* background: black; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#21b799), to(#21b799));
+    background-image: -webkit-linear-gradient(top, #21b799, #21b799);
+    background-image: -moz-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -ms-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -o-linear-gradient(top, #e25858, #ab1b1b);
+    /* background-image: linear-gradient(to bottom, #21b799, #ab1b1b); */
+}

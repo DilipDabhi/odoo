@@ -1,0 +1,103 @@
+.openerp .oe_kanban_view .oe_kanban_image
+{
+	border-radius: 50px;
+}
+
+
+.openerp .oe_form input[type="text"], .openerp .oe_form input[type="password"], .openerp .oe_form input[type="file"], .openerp .oe_form select, .openerp .oe_form textarea 
+{
+	border-bottom: 1px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-color: rgb(167, 164, 164);
+}
+.openerp .oe_form .oe_form_required input:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required select:not([disabled]):not([readonly]), .openerp .oe_form .oe_form_required textarea:not([disabled]):not([readonly])
+{
+	background-color: white !important;
+}
+.openerp .oe_form input[type="text"], .openerp .oe_form input[type="password"], .openerp .oe_form input[type="file"], .openerp .oe_form select, .openerp .oe_form textarea{
+	outline:none;
+}
+.navbar-inverse {
+    background-color: #dde02d;
+    border-color: #080808;
+}
+.openerp button.oe_highlight:hover {
+    background-color: #198C75;
+    border-radius: 0;
+    height: 26px;
+    border:0;]
+    /* background: black; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#198C75), to(#198C75));
+    background-image: -webkit-linear-gradient(top, #198C75, #198C75);
+    background-image: -moz-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -ms-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -o-linear-gradient(top, #e25858, #ab1b1b);
+    /* background-image: linear-gradient(to bottom, #198C75, #198C75); */
+}
+.openerp button.oe_highlight{
+    background-color: #21b799;
+    border-radius: 0;
+    height: 26px;
+    border:0;]
+    /* background: black; */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#21b799), to(#21b799));
+    background-image: -webkit-linear-gradient(top, #21b799, #21b799);
+    background-image: -moz-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -ms-linear-gradient(top, #e25858, #ab1b1b);
+    background-image: -o-linear-gradient(top, #e25858, #ab1b1b);
+    /* background-image: linear-gradient(to bottom, #21b799, #ab1b1b); */
+}
+.openerp .oe_view_manager_current .oe_form_editable button.oe_highlight {
+    background-image: linear-gradient(to bottom, #21b799, #21b799);
+}
+.openerp .oe_view_manager_current .oe_form_editable button.oe_highlight:hover {
+    background-image: linear-gradient(to bottom, #198C75, #198C75);
+    margin-top: 6px;
+}
+
+.openerp .oe_view_manager_current .oe_form_editable .oe_highlight {
+        color: white;
+    }
+    
+.openerp a.button:link, .openerp a.button:visited, .openerp button, .openerp .oe_button, .openerp input[type='submit'] {
+    background-image: linear-gradient(to bottom, white, white);
+    border-radius: 00;
+    }
+.openerp .oe_form > :not(.oe_form_nosheet) header .oe_button, .openerp .oe_form > .oe_form_nosheet header .oe_button {
+    margin: 3px 2px 1px;
+    height: 26px;
+    border: 0;
+    margin-top: 6px;
+}
+.openerp .oe_form header {
+    /* border-bottom: 1px solid #cacaca; */
+    padding-left: 2px;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#dedede));
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -moz-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -ms-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -o-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+}
+.openerp .oe_view_manager_current > .oe_view_manager_header {
+    border-bottom: 1px solid #cacaca;
+    background-color: #ededed;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#dedede));
+    background-image: -webkit-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -moz-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -ms-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: -o-linear-gradient(top, #fcfcfc, #dedede);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 0 9px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 0 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 0 9px rgba(0, 0, 0, 0.1);
+}
+.openerp .oe_application .oe_form_sheetbg {
+    /* background: url(/web/static/src/img/form_sheetbg.png); */
+    border-bottom: 1px solid #ddd;
+    background: #8F8F8F;
+}
