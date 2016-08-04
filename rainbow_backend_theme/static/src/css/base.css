@@ -422,7 +422,7 @@
     background-image: -moz-linear-gradient(top, #729FCF, #3465A4);
     background-image: -ms-linear-gradient(top, #729FCF, #3465A4);
     background-image: -o-linear-gradient(top, #729FCF, #3465A4);
-    background-image: linear-gradient(to bottom, #a24689, #a24689)!important;
+    background-image: linear-gradient(to bottom, #21b799, #21b799)!important;
 }
 .openerp .oe_followers button.oe_follower.oe_following:hover {
     color: white;
@@ -432,7 +432,7 @@
     background-image: -moz-linear-gradient(top, #DF3F3F, #A21A1A);
     background-image: -ms-linear-gradient(top, #DF3F3F, #A21A1A);
     background-image: -o-linear-gradient(top, #DF3F3F, #A21A1A);
-    background-image: linear-gradient(to bottom, #DF3F3F, #A21A1A)!important;
+    background-image: linear-gradient(to bottom, #198c75, #198c75)!important;
 }
 .openerp .oe_kanban_view .oe_kanban_card:not(.ui-sortable-helper):hover, .openerp .oe_kanban_view .oe_kanban_quick_create:not(.ui-sortable-helper):hover {
     border: 1px solid #7e376b !important;
@@ -449,4 +449,26 @@
     background-image: linear-gradient(#21b799, #21b799) !important);
     cursor: pointer;
     background-position: 0px center;
+}
+.openerp .oe_list.oe_list_editable.oe_editing .oe_form_field input, .openerp .oe_list.oe_list_editable.oe_editing .oe_form_field textarea {
+    height: 27px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid #7e376b;
+    margin: 0;
+}
+.openerp .oe_form_editable .oe_list_editable .oe_list_content td.oe_required {
+    background-color: #ffddf5;
+}
+.openerp .oe_pager_group {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    border: 1px solid #ababab;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 0px;
 }

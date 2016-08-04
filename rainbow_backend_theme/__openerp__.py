@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Backend Theme',
+    'name': 'Rainbow Backend Theme',
     'category': 'Website',
     'summary': 'Website',
     'website': '',
