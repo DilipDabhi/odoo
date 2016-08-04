@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<template id="assets_backend_themes" inherit_id="web.assets_backend" name="Custom CSS and JS">
+    		<xpath expr="." position="inside">
+		        <link rel="stylesheet" href="/rainbow_backend_theme/static/src/css/base.css"/>
+		    </xpath>
+		</template>
+
+		<!-- Setting theme favicon -->
+<!-- 		<template id="layout" inherit_id="web.layout" -->
+<!-- 		          name="Setting favicon" priority="20"> -->
+<!-- 		    <xpath expr="//link[@rel='shortcut icon']" position="replace"> -->
+<!-- 		        <link rel="shortcut icon" -->
+<!-- 		              href="/rainbow_backend_theme/static/src/img/icon.ico" -->
+<!-- 		              type="image/x-icon"/> -->
+<!-- 		    </xpath> -->
+<!-- 		</template> -->
+		
+<!-- 		<template id="custom_title" name="change title" inherit_id="web.layout"> -->
+<!-- 	      <xpath expr="//title" position="replace"> -->
+<!-- 	        <title>Your title</title> -->
+<!-- 	      </xpath> -->
+<!-- 	    </template>		 -->
+		
+     </data>
+</openerp>
